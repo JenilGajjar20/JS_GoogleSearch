@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section .main{
+    width: 580px;
+    margin: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section .main .searchBox{
+    position: relative;
+    margin-top: 20px;
+    width: 100%;
+}
+
+section .main .searchBox .query{
+    width: 100%;
+    height: 40px;
+    border: 1px solid #000;
+    outline: none;
+    border-radius: 30px;
+    font-size: 1.3rem;
+    padding: 20px 60px 20px 45px;
+}
+
+section .main .searchBox .icons{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 20px;
+    pointer-events: none;
+}
+
+section .main .button .searchBtn{
+    margin: 30px;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+section .main .button .searchBtn:hover{
+    background-color: lightgray;
+}
+
+section footer{
+    margin-top: 150px;
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+}
+
+section footer p{
+    font-size: 20px;
+}
